@@ -1,19 +1,15 @@
-# vue2-websocket
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## websocket 搭建简易多人聊天室 （vue2版本）
+### src/server 文件是后端服务文件 ， 建议npm使用16.9.0版本
+### 前端
+  websocket 
+    open
+    close
+    error
+    message
+### 后端
+  ws
+    open
+    close
+    error
+    connection
+      message
